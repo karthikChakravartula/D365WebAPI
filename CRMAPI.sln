@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMAPI", "CRMAPI.csproj", "{AD7C4E43-75A0-4122-AA25-D2E7060DD28A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7C4E43-75A0-4122-AA25-D2E7060DD28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C4E43-75A0-4122-AA25-D2E7060DD28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7C4E43-75A0-4122-AA25-D2E7060DD28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7C4E43-75A0-4122-AA25-D2E7060DD28A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {251AC2E2-13D9-4A64-B322-8C5B0E470425}
+	EndGlobalSection
+EndGlobal
