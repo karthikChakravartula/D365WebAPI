@@ -37,19 +37,19 @@ namespace CRMAPI.Controllers
         [HttpPost]
         public ActionResult<object> Post([FromBody] object value)
         {
-            //CRMBaseMethods bm = new CRMBaseMethods();
+            CRMBaseMethods bm = new CRMBaseMethods();
 
-            //var res = bm.Update("accounts",new Guid("6e8227e4-e837-ea11-a813-000d3a579805"), value);
+            var res = bm.Update("accounts",new Guid("391f285d-b738-ea11-a813-000d3a579805"), value);
 
             //return res;
 
 
 
-            CRMBaseMethods bm = new CRMBaseMethods();
+            //CRMBaseMethods bm = new CRMBaseMethods();
 
             //var res = bm.Update("accounts", new Guid("a3f6f127-e437-ea11-a813-000d3a579805"), value);
 
-            var res = bm.Create("accounts", value);
+            //var res = bm.Create("accounts", value);
 
             return res;
         }

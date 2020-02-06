@@ -110,7 +110,7 @@ namespace CRMAPI.CRMFunctions
 
             if (chkd != null && chkd["value"].Any())
             {
-                //httpClient.DefaultRequestHeaders.Add("CallerObjectId", chkd["value"][0]["systemuserid"].ToString());
+                httpClient.DefaultRequestHeaders.Add("CallerObjectId", "a884f36d-9d5c-49f6-b6e2-5806e328ba56");
             }
 
             var stringContent = new StringContent(JsonConvert.SerializeObject(Data), Encoding.UTF8, "application/json");
@@ -138,12 +138,12 @@ namespace CRMAPI.CRMFunctions
         {
             //using (httpClient)
            // {
-                var chkd = RetrieveMultiple("systemusers", "systemuserid", "contains(domainname,'" + ((JObject)Data)["callingUser"].ToString() + "')");
+                //var chkd = RetrieveMultiple("systemusers", "systemuserid", "contains(domainname,'" + ((JObject)Data)["callingUser"].ToString() + "')");
 
-                if(chkd !=null && chkd["value"].Any())
-                {
-                    httpClient.DefaultRequestHeaders.Add("CallerObjectId", chkd["value"][0]["systemuserid"].ToString());
-                }
+                //if(chkd !=null && chkd["value"].Any())
+                //{
+                    httpClient.DefaultRequestHeaders.Add("CallerObjectId", "a884f36d-9d5c-49f6-b6e2-5806e328ba56");
+                //}
 
                 var stringContent = new StringContent(JsonConvert.SerializeObject(Data), Encoding.UTF8, "application/json");
 
